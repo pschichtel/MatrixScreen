@@ -1,0 +1,19 @@
+html, body, #matrixBox {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+#matrixBox {
+    overflow: hidden;
+    color: #30D533;
+    text-align: center;
+    white-space: pre;
+}
+
+#letter-0, #letter-1, #letter-10{
+    visibility: hidden;
+    display: inline-block;
+}
